@@ -1,9 +1,104 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="26.1.3">
-  <diagram name="Страница — 1" id="vH9i-aSdlDiMygP6Xwoz">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="26.1.3" pages="2">
+  <diagram name="UseCase будущей системы" id="vH9i-aSdlDiMygP6Xwoz">
+    <mxGraphModel dx="1250" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nxCV3QwCiyOCK9w8k-M4-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="170" width="420" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="nxCV3QwCiyOCK9w8k-M4-3" value="Выступающий" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="265" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nxCV3QwCiyOCK9w8k-M4-4" value="Абитуриент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="525" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nxCV3QwCiyOCK9w8k-M4-8" value="Аналитический отдел" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="630" y="265" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nxCV3QwCiyOCK9w8k-M4-13" value="Концептуальное представление бизнес процесса, описанного в teamproject" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="270" y="100" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nxCV3QwCiyOCK9w8k-M4-14" value="&lt;font size=&quot;1&quot;&gt;Запуск интерактива&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="260" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nxCV3QwCiyOCK9w8k-M4-21" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Прохождение интерактива&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="517.5" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="nxCV3QwCiyOCK9w8k-M4-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nxCV3QwCiyOCK9w8k-M4-3" target="nxCV3QwCiyOCK9w8k-M4-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="310" as="sourcePoint" />
+            <mxPoint x="160" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nxCV3QwCiyOCK9w8k-M4-25" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="nxCV3QwCiyOCK9w8k-M4-4" target="nxCV3QwCiyOCK9w8k-M4-21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="560" as="sourcePoint" />
+            <mxPoint x="140" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nxCV3QwCiyOCK9w8k-M4-26" value="&lt;font size=&quot;1&quot;&gt;Передача данных отделу&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="413.5" y="257.5" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="nxCV3QwCiyOCK9w8k-M4-27" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="nxCV3QwCiyOCK9w8k-M4-26" target="nxCV3QwCiyOCK9w8k-M4-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="440" as="sourcePoint" />
+            <mxPoint x="510" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nxCV3QwCiyOCK9w8k-M4-28" value="Система проведения интерактивов и сбор данных" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="280" y="180" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nxCV3QwCiyOCK9w8k-M4-29" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Сбор данных с абитуриента&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="350" width="167" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cUJVRyWQt0c_aEW-kol-" name="UseCase текущего решения">
+    <mxGraphModel dx="1250" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="08VeYTKV9fryWmRlUu8a-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="280" width="370" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="08VeYTKV9fryWmRlUu8a-2" value="Выступающий" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="100" y="355" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="08VeYTKV9fryWmRlUu8a-3" value="Абитуриент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="100" y="555" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="08VeYTKV9fryWmRlUu8a-4" value="Аналитический отдел" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="660" y="430" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="08VeYTKV9fryWmRlUu8a-5" value="Командное видение текущего решения, бизнес-процесса" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="290" y="200" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="08VeYTKV9fryWmRlUu8a-6" value="&lt;font size=&quot;1&quot;&gt;Запуск интерактива&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="350" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="08VeYTKV9fryWmRlUu8a-7" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Прохождение интерактива&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="547" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="08VeYTKV9fryWmRlUu8a-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="08VeYTKV9fryWmRlUu8a-2" target="08VeYTKV9fryWmRlUu8a-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="400" as="sourcePoint" />
+            <mxPoint x="200" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="08VeYTKV9fryWmRlUu8a-9" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="08VeYTKV9fryWmRlUu8a-3" target="08VeYTKV9fryWmRlUu8a-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="650" as="sourcePoint" />
+            <mxPoint x="180" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="08VeYTKV9fryWmRlUu8a-12" value="Система проведения интерактивов и сбор данных" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="290" y="295" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vx7lUOpOa6VeeniACb1j-1" value="Комментарий: отсутствие сбора информации или проблемы со сбором данных" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="420" width="170" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
